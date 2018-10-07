@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Disaster Alert</string>
+    <string-array name="service_type">
+        <item>Medical</item>
+        <item>Fire</item>
+        <item>Police</item>
+    </string-array>
+</resources>

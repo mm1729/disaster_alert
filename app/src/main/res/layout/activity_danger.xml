@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="YOU ARE BEING"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="HELPED"
+        android:textColor="#ac1919"
+        android:textSize="62dp" />
+
+    <Button
+        android:id="@+id/btnSafe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e701e"
+        android:fontFamily="sans-serif"
+        android:text="I'M SAFE"
+        android:textColor="#ffffff"
+        android:textSize="62dp"
+        android:padding="30dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnMedical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REQUEST MED"
+        android:textSize="42dp"
+        android:fontFamily="sans-serif"
+        android:background="#dc8623"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnFire"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REQUEST FIRE"
+        android:textSize="42dp"
+        android:fontFamily="sans-serif"
+        android:background="#dc8623"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REQUEST POLICE"
+        android:textSize="42dp"
+        android:fontFamily="sans-serif"
+        android:background="#dc8623"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+
+
+
+</LinearLayout>

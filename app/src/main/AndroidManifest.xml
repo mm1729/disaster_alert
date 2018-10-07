@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.mm1729.disasteralert">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_exclamation"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_exclamation_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DangerActivity"
+            android:parentActivityName=".MainActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <activity android:name=".NotifyActivity">
+        </activity>
+
+        <activity android:name=".NewDisasterActivity">
+        </activity>
+
+        <receiver android:name=".SmsReceiver">
+            <intent-filter>
+                <action android:name=
+                    "android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.SEND_SMS">
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS">
+    </uses-permission>
+
+</manifest>

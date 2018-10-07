@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text="Service:"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+
+
+    <Spinner
+        android:id="@+id/service_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/service_type"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/messageHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text="Message:"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/notify_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e701e"
+        android:fontFamily="sans-serif"
+        android:text="SEND"
+        android:textColor="#ffffff"
+        android:textSize="42dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ac1919"
+        android:fontFamily="sans-serif"
+        android:text="CANCEL"
+        android:textColor="#ffffff"
+        android:textSize="42dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+</LinearLayout>

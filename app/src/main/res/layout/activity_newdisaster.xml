@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="ARE YOU"
+        android:textSize="48dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnSafe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e701e"
+        android:fontFamily="sans-serif"
+        android:text="SAFE"
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/messageHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="OR"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ac1919"
+        android:fontFamily="sans-serif"
+        android:text="HELP"
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+</LinearLayout>

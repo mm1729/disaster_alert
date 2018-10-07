@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU ARE"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="38dp"/>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SAFE"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="62dp"
+        android:textColor="#1e701e" />
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textSize="62dp"
+        android:fontFamily="sans-serif"
+        android:background="#ac1919"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/alertHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Alerts"
+        android:gravity="left"
+        android:fontFamily="sans-serif"
+        android:textSize="28dp"/>
+    <TextView
+        android:id="@+id/alertText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Authorites have found high sea levels near the beach. Stay away!Authorites have found high sea levels near the beach. Stay away! "
+        android:gravity="left"
+        android:fontFamily="sans-serif"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnNotify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFY AUTHORITIES"
+        android:textSize="32dp"
+        android:fontFamily="sans-serif"
+        android:background="#dc8623"
+        android:textColor="#ffffff"
+        android:layout_margin="8dp"/>
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textSize="32dp"
+        android:fontFamily="sans-serif"
+        android:background="#d7d9df"
+        android:textColor="#122fa3"
+        android:layout_margin="8dp"/>
+
+
+</LinearLayout>
